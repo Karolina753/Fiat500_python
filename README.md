@@ -1,7 +1,7 @@
 # Fiat 500 Used Car Sales Analysis
 
 ## Project Description
-The aim of this project is to analyze the sales data of used Fiat 500 cars in Italy. The analysis includes data preparation, exploration, linear regression modeling, and the application of Principal Component Analysis (PCA) combined with linear regression.
+The aim of this project is to analyze the sales data of used Fiat 500 cars in Italy. The analysis includes data preparation, exploration, linear regression modeling, the application of Principal Component Analysis (PCA) combined with linear regression, and the implementation of a Random Forest model.
 
 ## Data
 The dataset contains information about various features of the cars, including model, engine power, transmission type, age, mileage, number of previous owners, location, and price.
@@ -38,3 +38,10 @@ The dataset contains information about various features of the cars, including m
 - Preprocess the data using scaling and one-hot encoding.
 - Apply PCA to reduce dimensionality.
 - Train a linear regression model using the transformed data.
+
+## Random Forest Model
+- Prepare data by selecting relevant features.
+- Split data into training and testing sets.
+- Train the Random Forest model with the training data.
+- Evaluate the model using Mean Squared Error (MSE) and R-squared (R²) score.
+- Analyze feature importance to understand which features have the most impact on the car prices.
